@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header .Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  width: 100%;
+  color: #2e4765;
+  /* position: fixed; */
+  font-family: "Proxima Nova", sans-serif;
+  border-right: 1px solid #bbcee6;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: -10px;
+}
+
+header .logo {
+  font-size: 30px;
+  display: flex;
+}
+
+header .list ul {
+  list-style: none;
+}
+header .list ul li {
+  float: left; /*برتيهن افقي  */
+  margin-left: 100px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+header .Container .Connect .Co {
+  background-color: #4468e2;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.Container1 {
+
+    position: relative;
+    text-align: center;
+    color: white;
+
+    
+}
+
+.Container1 h1 {
+  font-size: 60px;
+  font-family: Montserrat;
+}
+
+.Container1 .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Container1 .im1 {
+    justify-content: space-around;
+    width: 100%;
+}
+.Container1 .im1 img {
+  
+    width: 100%;
+    
+}
+
+.Container1 .inp {
+  float: left;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+  color: black;
+  margin: 00px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+.inp .c-in {
+  border-left: solid 1px gray;
+}
+.inp .c-out {
+  border-left: solid 1px gray;
+
+}
+
+
+.inp  input{
+
+  text-align: center;
+  border :none;
+  color: gray;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #4468e2;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.Cn {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #4468e2;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 2px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.Connect .Cn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Connect .Cn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.Connect .Cn:hover span {
+  padding-right: 25px;
+}
+
+.Connect .Cn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* .Container1 .inp .bo input {
+
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  background-color: #4468e2;
+  
+} */
+
+
+
+
+.Container2 .bloc {
+    padding: 2px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+} 
+.Container2 img:hover{
+    background-color: #2e4765;
+    transition: 0.5ms;
+    border-radius: 10px;
+    box-shadow: 3px 20px 57px -14px #5f5c5d;
+    outline: none;
+}
+.Container2 .bloc div {
+    padding: 20px;
+
+}
+.Container2 .bloc .Price {
+    width: 25%;
+}
+.Container2 .bloc .save {
+    width: 25%;
+}
+.Container2 .bloc .Payment {
+    width: 25%;
+}
+.Container2 .bloc .BestNear {
+    width: 25%;
+}
+
+
+.Container2 .bloc p {
+
+    margin-top: 10px;
+}
+
+
